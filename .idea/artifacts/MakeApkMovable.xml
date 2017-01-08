@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MakeApkMovable">
+    <output-path>$PROJECT_DIR$/out/artifacts/MakeApkMovable</output-path>
+    <root id="archive" name="MakeApkMovable.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/MakeApkMovable/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="tools">
+        <element id="dir-copy" path="$PROJECT_DIR$/MakeApkMovable/res" />
+      </element>
+      <element id="module-output" name="MakeApkMovable" />
+    </root>
+  </artifact>
+</component>
